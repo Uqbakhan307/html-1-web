@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+<body>
+    <h1>UQBA KHAN</h1>
+    <p>Email: uqbakhan2006@gmail.com | phone; 03433244739 </p>
+    <ul>
+        <li>Build and maintain web applications.</li>
+        <li>Collaborate with designers and fornt developers.</li>
+    </ul>
+
+    <h2>Education</h2>
+    <p>intermediate  of Science in Computer Science</p>
+    <p>collage of Shaikh zaid center, 2018</p>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>React.js</li>
+    </ul>
+    <h2>Experience </h2>
+    <ul>
+       <li>no experience </li>
+     </ul>  
+     <ul>
+    <h2>Refrence</h2>
+    <li>no refrence</li>
+    </ul>
+</body>
+</html>
