@@ -3,39 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Recommended Section</title>
+    <style>
+        /* Container styling */
+        .recommended-section {
+            width: 600px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
+
+        /* Title styling */
+        .recommended-header {
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #333;
+            color: #fff;
+            display: inline-block;
+            padding: 5px 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Grid styling */
+        .recommended-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        /* Image box styling */
+        .recommended-item {
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        /* Image styling */
+        .recommended-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Text styling */
+        .recommended-item p {
+            padding: 10px;
+            font-size: 14px;
+            color: #333;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>UQBA KHAN</h1>
-    <hr />
-  <b><p>Email:</b><i> uqbakhan2006@gmail.com</i> |<b> phone;</b><i> 03433244739</i><br<q> <cite><blockquote>|https://www.linkedin.com/in/uqba-khan-77589532b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app<convert in</q> </blockquote></cite></p>
-    <ul>
-    <hr />
-        <li><b><i>Welcome to Frontend Development</i></b></li>
-        <li>Build and maintain web applications.</li>
-      <li>Building modern websites with HTML, CSS, and JavaScript</li>
-    <hr />
-    </ul>
-
-    <h2><i>Education:</i></h2>
-    <p>intermediate  of Science in <strong>Computer Science</strong></p>
-    <p>collage of Shaikh zaid center,<strong> 2023</strong></p>
-
-    <h2><i>Skills:</i></h2> 
-    <ul>
-        <li>HTML & CSS</li>
-        <li>JavaScript</li>
-        <li>React.js</li>
-        
-    </ul>
-    <h2><i>Experience:</i> </h2>
-    <ul>
-       <li>no experience </li>
-     </ul>  
-    <h2><i>Refrence:</i></h2>
-    <ul>
-       <li>no refrence</li>
-    </ul>
+    <div class="recommended-section">
+        <div class="recommended-header">RECOMMENDED</div>
+        <div class="recommended-grid">
+            <div class="recommended-item">
+                <img src="image1.jpg" alt="News Image 1">
+                <p>Case registered after video of fight between families at Karachi restaurant goes viral</p>
+            </div>
+            <div class="recommended-item">
+                <img src="image2.jpg" alt="News Image 2">
+                <p>Mirzapur will hit big screens, with ‘Munna Bhaiya’s’ comeback</p>
+            </div>
+            <div class="recommended-item">
+                <img src="image3.jpg" alt="News Image 3">
+                <p>PIA steward caught smuggling 16 iPhones at Islamabad Airport</p>
+            </div>
+            <div class="recommended-item">
+                <img src="image4.jpg" alt="News Image 4">
+                <p>Met office makes snow forecast for UK in November</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
-
